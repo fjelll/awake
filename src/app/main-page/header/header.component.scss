@@ -1,16 +1,20 @@
 .header {
   display: flex;
+  width: clamp(300px, 90%, 100vw);
   justify-content: space-between;
   align-items: center;
   background-color: #1F1F1F;
   border-radius: 1.5em;
   padding-left: 7.5%;
+  
 }
 
 .header-title {
   flex: 1;
+  width: fit-content;
   align-items: center;
   text-align: start;
+  padding-left: 3%;
   color: #1F8FFF;
 }
 
@@ -22,4 +26,8 @@
   padding-right: 3.75%;
 }
 
-
+.eye{
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
