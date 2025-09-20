@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import { EyeComponent } from "../../eye/eye.component";
 
 
 @Component({
@@ -8,6 +7,6 @@ import { EyeComponent } from "../../eye/eye.component";
   standalone: true,
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  imports: [MatSlideToggleModule, EyeComponent]
+  imports: [MatSlideToggleModule]
 })
 export class HeaderComponent {}
