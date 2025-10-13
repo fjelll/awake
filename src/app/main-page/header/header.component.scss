@@ -1,20 +1,29 @@
 .header {
   display: flex;
   align-items: center;   
-  width: clamp(400px, 99vw, 99vw);
-  height: 80px;            
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: clamp(450px, 99vw, 99vw);
+  //height: 80px;            
   background-color: #1f1f1f;
   border-radius: 1.5em;
-  justify-content: space-between;
+  //border: 2px solid #000305;
+  box-shadow: 0 0 20px #00bcd4;
 }
 
 .header-title {
-  color: #1f8fff;
+  color: #ffffff;
   padding-left: 1vw;
 }
 
 .header-svg {
   padding-right: 1vw;
+  cursor: pointer;
+  fill: white;
+}
+
+.header-svg:hover {
+  fill: #007acc;
 }
 
 .header-list {
@@ -30,7 +39,7 @@
       font-weight: 500;
       font-size: 1.1em;
       &:hover {
-        color: #1f8fff;
+        color: #007acc;
       }
     }
   }
