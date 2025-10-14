@@ -1,0 +1,10 @@
+.reactive-text{
+    text-align: center;
+    margin-top: 10rem;
+}
+.changing-word{
+    color: #ff4081;
+    font-weight: bold;
+    animation: changeWord 6s infinite;
+    border-right : 1px solid #ffffff;
+}

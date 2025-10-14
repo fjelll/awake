@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-main-content',
   imports: [],
   templateUrl: './main-content.component.html',
-  styleUrls: ['./main-content.component.css']
+  styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent {
 
