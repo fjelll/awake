@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -7,7 +7,16 @@ import { Component } from '@angular/core';
   templateUrl: './main-content.component.html',
   styleUrls: ['./main-content.component.scss']
 })
-export class MainContentComponent {
-  private words = ['service', 'security', 'inivasion', ]
+export class MainContentComponent implements OnInit {
+  private words = ['service', 'security', 'invasion', ];
+  currentWord = this.words[0];
+
+
+  ngOnInit(): void {
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % this.words.length;
+      this.currentWord = this.words[index];
+    }, 1000);
+  }
 }
-  
