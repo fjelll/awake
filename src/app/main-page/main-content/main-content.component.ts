@@ -17,6 +17,6 @@ export class MainContentComponent implements OnInit {
     setInterval(() => {
       index = (index + 1) % this.words.length;
       this.currentWord = this.words[index];
-    }, 1000);
+    }, 2000);
   }
 }
