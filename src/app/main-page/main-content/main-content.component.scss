@@ -9,3 +9,15 @@
     animation: changeWord 6s infinite;
     border-right : 1px solid #ffffff;
 }
+
+.discord-bot-promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20vw;
+}
+.discord-bot-promotion-button{
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 145);
+}
