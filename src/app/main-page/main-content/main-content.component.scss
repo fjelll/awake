@@ -27,6 +27,7 @@
 }
 
 .discord-bot-image{
-    width: 55vw;
-    height: 300px;
+    width: clamp(300px, 55vw, 55vw);
+    //width: 55vw;
+    height: clamp(300px, 300px, 300px);
 }
