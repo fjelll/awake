@@ -2,7 +2,7 @@
   display: flex;
   justify-self: center;
   flex-direction: column;
-  width: 940px;
+  width: clamp(300px, 100%, 940px);
   gap: 200px;
 }
 
