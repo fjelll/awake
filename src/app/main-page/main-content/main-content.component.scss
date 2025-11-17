@@ -50,5 +50,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  width: clamp(300px, 100%, 940px);
   gap: 20px;
 }

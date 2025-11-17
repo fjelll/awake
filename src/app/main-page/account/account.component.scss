@@ -8,11 +8,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-color: #2d2e2d;
     width: 75px;
     height: 75px;
     border-radius: 50%;
     margin-bottom: 20px;
+    .profile-pic-img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 .profile-settings {
