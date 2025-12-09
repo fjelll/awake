@@ -4,15 +4,6 @@
     justify-content: center;
 }
 
-.subscription-plan-header {
-    color: #BAEAD8;
-    height: 50px;
-}
-
-.subscription-text {
-    color: #BAEAD8;
-}
-
 .subscription-card {
     display: flex;
     width: 300px;
@@ -20,5 +11,16 @@
     align-self: end;
     justify-self: center;
     border-radius: 10px;
-    background-color: #3C3C3C;
+    background-color: #202323;
+    color: #BAEAD8;
+}
+
+.subscription-plan-header {
+    color: #BAEAD8;
+    height: 50px;
+}
+
+.subscription-card-header {
+    color: #BAEAD8;    
+    font-size: 25px;
 }
