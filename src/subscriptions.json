@@ -3,23 +3,35 @@
     {
       "title": "Standard",
       "price": "Free",
-      "months": "Forever",
+      "months": "",
       "features": [
         "Voice logs",
-        "Standard support",
+        "Basic anti-spam",
+        "basic anti-raid",
         "Simple moderation",
-        "Malicious link scanner",
-        "Slow mode toggle"
+        "Malicious link scanner"
       ]
     },
     {
       "title": "Premium",
-      "price": 20,
-      "months": 12,
+      "price": "$4.99",
+      "months": "3 Months",
       "features": [
         "All standard features",
         "Advanced moderation",
         "24/7 support"
+      ],
+      "recommended": "Most Popular"
+    },
+    {
+      "title": "Ultimate",
+      "price": "$11.99",
+      "months": "12 Months",
+      "features": [
+        "All premium features",
+        "Custom bot commands",
+        "Priority support",
+        "Early access to new features"
       ]
     }
   ]
