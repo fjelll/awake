@@ -1,5 +1,6 @@
 .subscription-plan-area {
     display: flex;
+    gap: 40px;
     height: 500px;
     justify-content: center;
 }
@@ -11,16 +12,32 @@
     align-self: end;
     justify-self: center;
     border-radius: 10px;
-    background-color: #202323;
-    color: #BAEAD8;
+    background-color: #003d2d;
+    color: #F2E968;
 }
 
 .subscription-plan-header {
-    color: #BAEAD8;
+    color: #95c672;
     height: 50px;
 }
 
+.subscription-price {
+    font-size: 20px;
+    margin: 0;
+}
+
 .subscription-card-header {
-    color: #BAEAD8;    
+    color: #F2E968;
     font-size: 25px;
+    padding: 20px 0 0 20px;
+}
+
+.subscription-months {
+    font-size: 12px;
+}
+
+.subscription-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

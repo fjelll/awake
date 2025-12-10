@@ -4,9 +4,8 @@
   height: 75px;
   width: 100%;
   border-radius: 20px;
-  background-color: #202323;
+  background-color: #efefef;
 }
-
 
 .header-section-left {
   display: flex;
@@ -23,16 +22,19 @@
 }
 
 .header-site-name {
-  color: #BAEAD8;
+  color: #003d2d;  
 }
 
 .support, .features {
-  color: #91b6a8;
+  color: #003d2d;
   cursor: pointer;
+  &:hover {
+    color: #95c672;
+  }
 }
 
 .sign-in {
-  background-color: #95C672;
+  background-color: #95c672;
   color: #f8f8f8;
   border: none;
   padding: 10px 20px;
@@ -41,9 +43,9 @@
 }
 
 .get-started {
-  background-color: #0D3A2D;
+  background-color: #003d2d;
   border: none;
-  color: #ffffff;
+  color: #f8f8f8;
   padding: 10px 20px;
   border-radius: 30px;
   cursor: pointer;

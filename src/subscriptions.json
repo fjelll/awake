@@ -1,0 +1,26 @@
+{
+  "plans": [
+    {
+      "title": "Standard",
+      "price": "Free",
+      "months": "Forever",
+      "features": [
+        "Voice logs",
+        "Standard support",
+        "Simple moderation",
+        "Malicious link scanner",
+        "Slow mode toggle"
+      ]
+    },
+    {
+      "title": "Premium",
+      "price": 20,
+      "months": 12,
+      "features": [
+        "All standard features",
+        "Advanced moderation",
+        "24/7 support"
+      ]
+    }
+  ]
+}
