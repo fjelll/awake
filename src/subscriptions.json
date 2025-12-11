@@ -1,7 +1,7 @@
 {
   "plans": [
     {
-      "title": "Standard",
+      "title": "Starter",
       "price": "Free",
       "months": "",
       "features": [
@@ -13,22 +13,22 @@
       ]
     },
     {
-      "title": "Premium",
+      "title": "Pro",
       "price": "$4.99",
       "months": "3 Months",
       "features": [
-        "All standard features",
+        "All starter features",
         "Advanced moderation",
         "24/7 support"
       ],
       "recommended": "Most Popular"
     },
     {
-      "title": "Ultimate",
+      "title": "Elite",
       "price": "$11.99",
-      "months": "12 Months",
+      "months": "4 Months",
       "features": [
-        "All premium features",
+        "All Pro features",
         "Custom bot commands",
         "Priority support",
         "Early access to new features"

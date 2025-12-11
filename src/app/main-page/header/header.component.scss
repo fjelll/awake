@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 75px;
-  width: 100%;
+  width: clamp(715px, 100%, 100%);
   border-radius: 20px;
   background-color: #efefef;
 }
