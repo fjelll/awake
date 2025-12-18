@@ -1,0 +1,16 @@
+.main-content {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.announcement-button {
+  background-color: black;
+  border: 1.5px solid #21ff21;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}

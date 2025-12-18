@@ -4,7 +4,7 @@
   height: 75px;
   width: clamp(715px, 100%, 100%);
   border-radius: 20px;
-  background-color: #efefef;
+  background-color: #003d2d;
 }
 
 .header-section-left {
@@ -22,31 +22,26 @@
 }
 
 .header-site-name {
-  color: #003d2d;  
+  color: #ffffff;  
 }
 
 .support, .features {
-  color: #003d2d;
+  color: #adadad;
   cursor: pointer;
   &:hover {
-    color: #95c672;
+    color: #F2E968;
   }
 }
 
-.sign-in {
+.sign-in, .get-started {
   background-color: #95c672;
-  color: #f8f8f8;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
-  border-radius: 30px;
+  border-radius: 20px;
   cursor: pointer;
+  &:hover {
+    background-color: #82b85c;
+  }
 }
 
-.get-started {
-  background-color: #003d2d;
-  border: none;
-  color: #f8f8f8;
-  padding: 10px 20px;
-  border-radius: 30px;
-  cursor: pointer;
-}
