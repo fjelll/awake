@@ -21,12 +21,23 @@
 
 .header-info-list {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0px;
-  justify-content: center;
+  padding-right: 20px;
+  :hover {
+      cursor: pointer;
+      color: #FFD700;
+    }
   ul {
     width: 60px;
     color: white;
     padding-left: 30px;
+    
   }
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
 }
