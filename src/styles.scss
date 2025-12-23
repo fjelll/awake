@@ -1,4 +1,10 @@
 /* styles.scss is empty */
 body {
-    background-color:  #000000;
+    //background-color:  #000000;
+    //background: linear-gradient(to right, purple, blue);
+    background-image: url("/dark-wavy.png");
+    background-size: cover;        /* Scales the image to cover the entire body */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-position: center;   /* Centers the image */
+    background-attachment: fixed;  /* Keeps the image fixed during scrolling (optional) */
 }
