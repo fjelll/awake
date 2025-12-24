@@ -40,4 +40,13 @@
 .header-search {
   display: flex;
   align-items: center;
+  width: 130px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  :hover {
+      border: 1px solid white;
+    }
 }
