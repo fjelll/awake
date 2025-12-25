@@ -1,7 +1,8 @@
 .header {
   display: flex;
+  justify-content: space-between;
   height: 100px;
-  justify-content: space-between
+  padding-bottom: 130px;
 }
 
 .header-right{
@@ -27,7 +28,7 @@
   padding-right: 20px;
   :hover {
       cursor: pointer;
-      color: #FFD700;
+      color: #C84774;
     }
   ul {
     width: 60px;
