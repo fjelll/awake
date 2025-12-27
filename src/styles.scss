@@ -1,8 +1,32 @@
 /* styles.scss is empty */
 body {
-    background-image: url("/dark-wavy.png");
-    background-size: cover;        /* Scales the image to cover the entire body */
-    background-repeat: no-repeat;  /* Prevents the image from repeating */
-    background-position: center;   /* Centers the image */
-    background-attachment: fixed;  /* Keeps the image fixed during scrolling (optional) */
+  background-image: url("/dark-wavy.png");
+  background-size: cover; /* Scales the image to cover the entire body */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed during scrolling (optional) */
+}
+
+:root {
+  /* bg-colors */
+  --bg-dark: oklch(0 0 0);
+  --bg: oklch(0.2 0 264);
+  --bg-light: oklch(0.3 0 264);
+  --bg-white: oklch(100% 0.00011 271);
+  /* text-colors */
+  --text: oklch(1, 0, 0);
+  --text-muted: oklch(0.63 0 271);
+  --text-dark: oklch(0 0 0);
+  /* accent/Hover-colors */
+  --accent-color: oklch(0.63 0.17 355);
+  --hover-color: oklch(0.63 0.17 355);
+  /* Shadows */
+  --shadow-s: inset 0 1px 2px #ffffff30, /* top higlight */ 0 1px 2px #00000030,
+    /* dark shadow */ 0 2px 4px #00000015; /* soft shadow */
+
+  --shadow-m: inset 0 1px 2px #ffffff50, /* top higlight */ 0 1px 2px #00000030,
+    /* dark shadow */ 0 2px 4px #00000015; /* soft shadow */
+
+  --shadow-l: inset 0 1px 2px #ffffff70, /* top higlight */ 0 1px 2px #00000030,
+    /* dark shadow */ 0 2px 4px #00000015; /* soft shadow */
 }

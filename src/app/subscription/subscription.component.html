@@ -8,13 +8,13 @@
 
     <mat-card-subtitle>
       <span class="subscription-price">
-        {{ plan.price }} <sub>{{ plan.months }}</sub>
+        {{ plan.price }} <sub class="subscription-price-months">{{ plan.months }}</sub>
       </span>
     </mat-card-subtitle>
 
     <mat-card-content class="subscription-card-features">
       <p>Features</p>
-      <ul>
+      <ul class="subscription-feature">
         <li *ngFor="let feature of plan.features">{{ feature }}</li>
       </ul>
     </mat-card-content>
