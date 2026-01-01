@@ -8,7 +8,7 @@
   border-top: none;
   border-radius: 0 0 30px 30px;
   color: var(--text-white);
-} 
+}
 
 .header-left {
   display: flex;
@@ -39,4 +39,17 @@
   :hover {
     color: var(--hover-color);
   }
+}
+
+.start-button {
+  background-color: var(--button-bg);
+  border: none;
+  color: var(--text-dark);
+  padding: 7px 14px;
+  border-radius: 30px;
+}
+
+.signin-button {
+  background-color: transparent;
+  border: var(--border-light) 2px solid;
 }

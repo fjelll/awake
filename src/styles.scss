@@ -15,15 +15,18 @@ body {
   --bg-white: oklch(100% 0.00011 271);
   /* text-colors */
   --text-white: oklch(1 0 0);
-  --text-muted: oklch(0.63 0 271);
+  --text-muted: oklch(0.7 0 271);
   --text-dark: oklch(0 0 0);
   /* accent/Hover-colors */
   --accent-color: oklch(0.63 0.17 355);
   --hover-color: oklch(0.63 0.17 355);
   --text-hover: oklch(1 0 0);
 
+  /* button-colors */
+  --button-bg: oklch(0.7 0.16 156);
+
   /* Borders */
-  --border-light: oklch(0.4 0 271);
+  --border-light: oklch(0.46 0.00005 271);
 
   /* Shadows */
   --shadow-s: inset 0 1px 2px #ffffff30, /* top higlight */ 0 1px 2px #00000030,
