@@ -26,7 +26,8 @@ body {
   --button-bg: oklch(0.7 0.16 156);
 
   /* Borders */
-  --border-light: oklch(0.46 0.00005 271);
+  --border-muted: oklch(0.46 0.00005 271);
+  --border-light: oklch(0.7 0.0001 271);
 
   /* Shadows */
   --shadow-s: inset 0 1px 2px #ffffff30, /* top higlight */ 0 1px 2px #00000030,

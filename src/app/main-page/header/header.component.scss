@@ -47,9 +47,15 @@
   color: var(--text-dark);
   padding: 7px 14px;
   border-radius: 30px;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .signin-button {
   background-color: transparent;
   border: var(--border-light) 2px solid;
+  color: var(--text-white);
+  padding: 7px 14px;
+  border-radius: 30px;
+  cursor: pointer;
 }
